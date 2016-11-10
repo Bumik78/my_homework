@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0px 152px 0px 154px;
+	-webkit-box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.75);
+	padding: 50px 49px 40px 46px;
+}
+
+	/* Logo */
+
+h1 {
+	font-family: sans-serif;
+}
+
+	/* head menu line*/
+
+.block {
+	display: block;
+	border: 1px solid black;
+	width: 966px;
+	background-color: grey;
+	margin: 40px 0 0;
+}
+
+.menu {
+	display: inline-block;
+  	position: relative;
+
+}
+
+.type {
+	list-style: none;
+  	margin: 0;
+  	padding-left: 0;
+  	counter-reset: li;
+  	text-align: left;
+  	height: 40px;
+}
+
+.top {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-family: sans-serif;
+  text-align: left;
+  padding: 10px;
+  margin-right: 15px;
+  transition: all 0.4s ease-in-out;
+  height: 20px;
+}
+
+.top:hover {
+  background: rgba(91, 91, 91, 1);
+  color: white;
+}
+.top:hover:before {
+  color: 3f3f3f;
+}
+
+	/* menu left */
+
+.lmenu {
+	float: left;
+	width: 240px;
+	height: 240px;
+	margin: 40px 40px 0px 0px;	
+}
+
+.menuleft {
+	display: block;
+	padding: 10px 24px;
+	border: 1px solid rgb(200, 200, 200);
+}
+
+
+a {
+	text-decoration: none;
+	color: rgb(200, 200, 200);
+}
+
+.menuleft:hover {
+  background: grey;
+  color: grey;
+}
+
+.menuleft:hover:before {
+  color: 3f3f3f;
+}
+
+/* content */
+.Lorem {
+	width: 629px;
+	height: 120px;
+	margin: 0 0 0 312px;
+}
+
+img {
+	margin: 40px 0;
+}
+
+/* footer */
+
+.footer {
+	display: block;
+	border: 1px solid black;
+	width: 966px;
+	background-color: rgb(184, 184, 184);
+	margin: 80px 0 60px;
+}
+
+.foot {
+	display: inline-block;
+  	position: relative;
+
+}
+
+.type {
+	list-style: none;
+  	margin: 0;
+  	padding-left: 0;
+  	counter-reset: li;
+  	text-align: left;
+  	height: 40px;
+}
+
+.other {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-family: sans-serif;
+  text-align: left;
+  padding: 5px 24px;
+  margin-right: 15px;
+  transition: all 0.4s ease-in-out;
+  height: 20px;
+}
+
+.other:hover {
+  color: white;
+  border-bottom: 1px solid grey;
+}
+.other:hover:before {
+  color: 3f3f3f;
+}
+
